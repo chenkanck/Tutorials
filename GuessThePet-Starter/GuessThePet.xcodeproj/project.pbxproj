@@ -29,7 +29,7 @@
 		3E6775621C3EFFAE00F9A5EC /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
 		3E6775641C3F171A00F9A5EC /* FlipDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipDismissAnimationController.swift; sourceTree = "<group>"; };
 		3E6775661C3F1C3C00F9A5EC /* SwipeInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeInteractionController.swift; path = "GuessThePet/Animation controllers/SwipeInteractionController.swift"; sourceTree = SOURCE_ROOT; };
-		BB3B33A21B40386700B5C810 /* GuessThePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GuessThePet.app; path = "Guess the Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3B33A21B40386700B5C810 /* Guess the Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess the Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3B33A61B40386700B5C810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB3B33A71B40386700B5C810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB3B33AC1B40386700B5C810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		BB3B33A31B40386700B5C810 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB3B33A21B40386700B5C810 /* GuessThePet.app */,
+				BB3B33A21B40386700B5C810 /* Guess the Pet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			);
 			name = "Guess the Pet";
 			productName = GuessThePet;
-			productReference = BB3B33A21B40386700B5C810 /* GuessThePet.app */;
+			productReference = BB3B33A21B40386700B5C810 /* Guess the Pet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

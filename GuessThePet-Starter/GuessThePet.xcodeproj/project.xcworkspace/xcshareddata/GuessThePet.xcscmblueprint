@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1E378D69E25EF235A08484D5D2C658DBAE5C4E56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1E378D69E25EF235A08484D5D2C658DBAE5C4E56" : 0,
+    "91C0D5D4028453C8020857322511B7062FF2746F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40C2AE50-FD13-4965-AEAD-E4A4907749CC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1E378D69E25EF235A08484D5D2C658DBAE5C4E56" : "RayTutorialProjects\/",
+    "91C0D5D4028453C8020857322511B7062FF2746F" : "RW00-Custom-VC-Transitions"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GuessThePet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GuessThePet-Starter\/GuessThePet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chenkanck\/Tutorials.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E378D69E25EF235A08484D5D2C658DBAE5C4E56"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/jozsef-vesza\/rw00-custom-vc-transitions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91C0D5D4028453C8020857322511B7062FF2746F"
+    }
+  ]
+}
