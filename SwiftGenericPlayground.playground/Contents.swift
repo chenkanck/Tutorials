@@ -27,6 +27,7 @@ items.removeLast()
 //items.removeLast()
 
 
+
 func findStringIndex(string:String, strings: [String]) -> Int? {
     return strings.indexOf(string)
 }
