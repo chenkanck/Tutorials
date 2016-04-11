@@ -1,6 +1,6 @@
 //
-//  DRCBigIConButton.swift
-//  CustomButton
+//  DRCImagePositionButton.swift
+//  DRCImagePositionButton
 //
 //  Created by Kan Chen on 4/1/16.
 //  Copyright © 2016 Kan Chen. All rights reserved.

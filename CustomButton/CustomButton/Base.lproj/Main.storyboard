@@ -32,6 +32,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tk-qo-ge4" customClass="DRCImagePositionButton" customModule="CustomButton" customModuleProvider="target">
+                                <rect key="frame" x="260" y="423" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="8xp-9M-yVK"/>
+                                    <constraint firstAttribute="width" constant="80" id="t4f-h9-l1M"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3x-mh-uhh" customClass="DRCImagePositionButton" customModule="CustomButton" customModuleProvider="target">
                                 <rect key="frame" x="260" y="260" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.88235294119999996" green="0.27450980390000002" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -62,6 +70,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Q37-Co-qe6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-15" id="NJQ-BU-iQP"/>
+                            <constraint firstItem="6tk-qo-ge4" firstAttribute="centerX" secondItem="i3x-mh-uhh" secondAttribute="centerX" id="UIm-Y1-eXt"/>
+                            <constraint firstItem="6tk-qo-ge4" firstAttribute="top" secondItem="i3x-mh-uhh" secondAttribute="bottom" constant="83" id="UPL-lG-U9j"/>
                             <constraint firstItem="i3x-mh-uhh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dpo-Xm-gIy"/>
                             <constraint firstItem="i3x-mh-uhh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f2m-Tw-PF6"/>
                             <constraint firstItem="Q37-Co-qe6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="oND-7s-oZ4"/>

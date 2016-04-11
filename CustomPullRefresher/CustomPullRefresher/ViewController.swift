@@ -9,12 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let controlHeight: CGFloat = 50.0
         let controlWidth: CGFloat = 320.0
         let controlFrame = CGRectMake(0, -controlHeight, controlWidth, controlHeight)
+        
         
     }
 

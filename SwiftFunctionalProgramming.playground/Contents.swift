@@ -81,3 +81,34 @@ func race(state: State) {
 }
 let state: State = (time: 5, positions: [1,1,1])
 
+print(result.filter {$0["country"] == "Canada"})
+class Clock {
+    var count: Int = 0
+    func getCount() -> Int {
+        return ++count
+    }
+}
+
+let c1 = Clock()
+c1.getCount()
+c1.getCount()
+let c2 = Clock()
+c2.getCount()
+
+func getClock() -> () -> Int {
+    var count: Int = 0
+    let getCount = { () -> Int in
+        ++count
+    }
+    return getCount
+}
+
+let c3 = getClock()
+c3()
+c3()
+let c4 = getClock()
+c4()
+c4()
+
+let o1: Int? = nil
+let o2 = o1.map{ $0 + 2 }
