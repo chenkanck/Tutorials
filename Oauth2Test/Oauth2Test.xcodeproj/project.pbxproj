@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E96D9471CBD98B1000D195E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D9461CBD98B1000D195E /* AppDelegate.swift */; };
+		3E96D9491CBD98B1000D195E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D9481CBD98B1000D195E /* ViewController.swift */; };
+		3E96D94C1CBD98B1000D195E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E96D94A1CBD98B1000D195E /* Main.storyboard */; };
+		3E96D94E1CBD98B1000D195E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E96D94D1CBD98B1000D195E /* Assets.xcassets */; };
+		3E96D9511CBD98B1000D195E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E96D94F1CBD98B1000D195E /* LaunchScreen.storyboard */; };
+		3E96D9721CBD9F8C000D195E /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E96D9631CBD9949000D195E /* OAuthSwift.framework */; };
+		3E96D9731CBD9F8C000D195E /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E96D9631CBD9949000D195E /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E96D9781CBDAF7D000D195E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E96D9771CBDAF7D000D195E /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4AC00F1CBED3A7005AAD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C839B6E19422CFF003A6950;
+			remoteInfo = SwifterSampleiOS;
+		};
+		3E4AC0111CBED3A7005AAD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CA4813B19A2EA8D0030B30D;
+			remoteInfo = SwifterSampleOSX;
+		};
+		3E4AC0131CBED3A7005AAD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE893E71C05127900A29F63;
+			remoteInfo = SwifteriOS;
+		};
+		3E4AC0151CBED3A7005AAD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE893FB1C0512C400A29F63;
+			remoteInfo = SwifterMac;
+		};
+		3E4AC0171CBED3A7005AAD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD875C1C66099B0068099B;
+			remoteInfo = SwifteriOSTests;
+		};
+		3E4AC0191CBED3A7005AAD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD87791C660EA30068099B;
+			remoteInfo = SwifterOSXTests;
+		};
+		3E4AC01B1CBED474005AAD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE893E61C05127900A29F63;
+			remoteInfo = SwifteriOS;
+		};
+		3E96D9621CBD9949000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F435027A1A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+		3E96D9641CBD9949000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F451E3C5195B8CD80051434C;
+			remoteInfo = OAuthSwiftDemo;
+		};
+		3E96D9661CBD9949000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
+			remoteInfo = OAuthSwiftOSX;
+		};
+		3E96D9681CBD9949000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
+			remoteInfo = OAuthSwiftOSXDemo;
+		};
+		3E96D96A1CBD9949000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
+			remoteInfo = OAuthSwiftTVOS;
+		};
+		3E96D96C1CBD9949000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C40890C01C11B37000E3146A;
+			remoteInfo = OAuthSwiftWatchOS;
+		};
+		3E96D96E1CBD9949000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
+			remoteInfo = OAuthSwiftTests;
+		};
+		3E96D9701CBD997C000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F43502791A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+		3E96D9741CBD9F8C000D195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F43502791A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E96D9761CBD9F8C000D195E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3E96D9731CBD9F8C000D195E /* OAuthSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../../../Downloads/swifter-1.1.3/Swifter.xcodeproj"; sourceTree = "<group>"; };
+		3E96D9431CBD98B1000D195E /* Oauth2Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oauth2Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E96D9461CBD98B1000D195E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E96D9481CBD98B1000D195E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E96D94B1CBD98B1000D195E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E96D94D1CBD98B1000D195E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E96D9501CBD98B1000D195E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E96D9521CBD98B1000D195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "../../../Downloads/OAuthSwift-master/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
+		3E96D9771CBDAF7D000D195E /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E96D9401CBD98B1000D195E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E96D9721CBD9F8C000D195E /* OAuthSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4AC0011CBED3A7005AAD69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4AC0101CBED3A7005AAD69 /* SwifterSampleiOS.app */,
+				3E4AC0121CBED3A7005AAD69 /* SwifterSampleOSX */,
+				3E4AC0141CBED3A7005AAD69 /* Swifter.framework */,
+				3E4AC0161CBED3A7005AAD69 /* Swifter.framework */,
+				3E4AC0181CBED3A7005AAD69 /* SwifteriOSTests.xctest */,
+				3E4AC01A1CBED3A7005AAD69 /* SwifterOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E96D93A1CBD98B1000D195E = {
+			isa = PBXGroup;
+			children = (
+				3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */,
+				3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */,
+				3E96D9451CBD98B1000D195E /* Oauth2Test */,
+				3E96D9441CBD98B1000D195E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E96D9441CBD98B1000D195E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E96D9431CBD98B1000D195E /* Oauth2Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E96D9451CBD98B1000D195E /* Oauth2Test */ = {
+			isa = PBXGroup;
+			children = (
+				3E96D9461CBD98B1000D195E /* AppDelegate.swift */,
+				3E96D9481CBD98B1000D195E /* ViewController.swift */,
+				3E96D9771CBDAF7D000D195E /* WebViewController.swift */,
+				3E96D94A1CBD98B1000D195E /* Main.storyboard */,
+				3E96D94D1CBD98B1000D195E /* Assets.xcassets */,
+				3E96D94F1CBD98B1000D195E /* LaunchScreen.storyboard */,
+				3E96D9521CBD98B1000D195E /* Info.plist */,
+			);
+			path = Oauth2Test;
+			sourceTree = "<group>";
+		};
+		3E96D9591CBD9948000D195E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E96D9631CBD9949000D195E /* OAuthSwift.framework */,
+				3E96D9651CBD9949000D195E /* OAuthSwiftDemo.app */,
+				3E96D9671CBD9949000D195E /* OAuthSwift.framework */,
+				3E96D9691CBD9949000D195E /* OAuthSwiftOSXDemo.app */,
+				3E96D96B1CBD9949000D195E /* OAuthSwift.framework */,
+				3E96D96D1CBD9949000D195E /* OAuthSwift.framework */,
+				3E96D96F1CBD9949000D195E /* OAuthSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E96D9421CBD98B1000D195E /* Oauth2Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E96D9551CBD98B1000D195E /* Build configuration list for PBXNativeTarget "Oauth2Test" */;
+			buildPhases = (
+				3E96D93F1CBD98B1000D195E /* Sources */,
+				3E96D9401CBD98B1000D195E /* Frameworks */,
+				3E96D9411CBD98B1000D195E /* Resources */,
+				3E96D9761CBD9F8C000D195E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4AC01C1CBED474005AAD69 /* PBXTargetDependency */,
+				3E96D9711CBD997C000D195E /* PBXTargetDependency */,
+				3E96D9751CBD9F8C000D195E /* PBXTargetDependency */,
+			);
+			name = Oauth2Test;
+			productName = Oauth2Test;
+			productReference = 3E96D9431CBD98B1000D195E /* Oauth2Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E96D93B1CBD98B1000D195E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kan Chen";
+				TargetAttributes = {
+					3E96D9421CBD98B1000D195E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3E96D93E1CBD98B1000D195E /* Build configuration list for PBXProject "Oauth2Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E96D93A1CBD98B1000D195E;
+			productRefGroup = 3E96D9441CBD98B1000D195E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3E96D9591CBD9948000D195E /* Products */;
+					ProjectRef = 3E96D9581CBD9948000D195E /* OAuthSwift.xcodeproj */;
+				},
+				{
+					ProductGroup = 3E4AC0011CBED3A7005AAD69 /* Products */;
+					ProjectRef = 3E4AC0001CBED3A7005AAD69 /* Swifter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3E96D9421CBD98B1000D195E /* Oauth2Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3E4AC0101CBED3A7005AAD69 /* SwifterSampleiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterSampleiOS.app;
+			remoteRef = 3E4AC00F1CBED3A7005AAD69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E4AC0121CBED3A7005AAD69 /* SwifterSampleOSX */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SwifterSampleOSX;
+			remoteRef = 3E4AC0111CBED3A7005AAD69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E4AC0141CBED3A7005AAD69 /* Swifter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swifter.framework;
+			remoteRef = 3E4AC0131CBED3A7005AAD69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E4AC0161CBED3A7005AAD69 /* Swifter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swifter.framework;
+			remoteRef = 3E4AC0151CBED3A7005AAD69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E4AC0181CBED3A7005AAD69 /* SwifteriOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifteriOSTests.xctest;
+			remoteRef = 3E4AC0171CBED3A7005AAD69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E4AC01A1CBED3A7005AAD69 /* SwifterOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterOSXTests.xctest;
+			remoteRef = 3E4AC0191CBED3A7005AAD69 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E96D9631CBD9949000D195E /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 3E96D9621CBD9949000D195E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E96D9651CBD9949000D195E /* OAuthSwiftDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftDemo.app;
+			remoteRef = 3E96D9641CBD9949000D195E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E96D9671CBD9949000D195E /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 3E96D9661CBD9949000D195E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E96D9691CBD9949000D195E /* OAuthSwiftOSXDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftOSXDemo.app;
+			remoteRef = 3E96D9681CBD9949000D195E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E96D96B1CBD9949000D195E /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 3E96D96A1CBD9949000D195E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E96D96D1CBD9949000D195E /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 3E96D96C1CBD9949000D195E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E96D96F1CBD9949000D195E /* OAuthSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuthSwiftTests.xctest;
+			remoteRef = 3E96D96E1CBD9949000D195E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E96D9411CBD98B1000D195E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E96D9511CBD98B1000D195E /* LaunchScreen.storyboard in Resources */,
+				3E96D94E1CBD98B1000D195E /* Assets.xcassets in Resources */,
+				3E96D94C1CBD98B1000D195E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E96D93F1CBD98B1000D195E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E96D9491CBD98B1000D195E /* ViewController.swift in Sources */,
+				3E96D9781CBDAF7D000D195E /* WebViewController.swift in Sources */,
+				3E96D9471CBD98B1000D195E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4AC01C1CBED474005AAD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 3E4AC01B1CBED474005AAD69 /* PBXContainerItemProxy */;
+		};
+		3E96D9711CBD997C000D195E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = 3E96D9701CBD997C000D195E /* PBXContainerItemProxy */;
+		};
+		3E96D9751CBD9F8C000D195E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = 3E96D9741CBD9F8C000D195E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E96D94A1CBD98B1000D195E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E96D94B1CBD98B1000D195E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E96D94F1CBD98B1000D195E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E96D9501CBD98B1000D195E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E96D9531CBD98B1000D195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E96D9541CBD98B1000D195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E96D9561CBD98B1000D195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Oauth2Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drchrono.Oauth2Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E96D9571CBD98B1000D195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Oauth2Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drchrono.Oauth2Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E96D93E1CBD98B1000D195E /* Build configuration list for PBXProject "Oauth2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E96D9531CBD98B1000D195E /* Debug */,
+				3E96D9541CBD98B1000D195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E96D9551CBD98B1000D195E /* Build configuration list for PBXNativeTarget "Oauth2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E96D9561CBD98B1000D195E /* Debug */,
+				3E96D9571CBD98B1000D195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E96D93B1CBD98B1000D195E /* Project object */;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Oauth2Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ2-Bb-nbG">
+                                <rect key="frame" x="13" y="28" width="59" height="30"/>
+                                <state key="normal" title="DropBox"/>
+                                <connections>
+                                    <action selector="clickedOAuth2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vU-0i-mB2"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGl-wh-xsB">
+                                <rect key="frame" x="20" y="58" width="560" height="542"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsS-hh-Pt1">
+                                <rect key="frame" x="476" y="28" width="63" height="30"/>
+                                <state key="normal" title="drchrono"/>
+                                <connections>
+                                    <action selector="clickedOAuth2Drchrono:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2lL-VM-Vzf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDM-V2-yH7">
+                                <rect key="frame" x="118" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="clickCurrentPatient:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZTS-Rf-xoh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xDM-V2-yH7" firstAttribute="centerY" secondItem="cZ2-Bb-nbG" secondAttribute="centerY" id="1tS-9F-3IN"/>
+                            <constraint firstItem="tGl-wh-xsB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4M4-4W-tbS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tGl-wh-xsB" secondAttribute="trailing" id="GVV-g3-M2t"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tGl-wh-xsB" secondAttribute="bottom" id="Jgh-O9-6Bi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JsS-hh-Pt1" secondAttribute="trailing" constant="50" id="Saj-zP-fvZ"/>
+                            <constraint firstItem="xDM-V2-yH7" firstAttribute="leading" secondItem="cZ2-Bb-nbG" secondAttribute="trailing" constant="30" id="b5x-HP-lSZ"/>
+                            <constraint firstItem="cZ2-Bb-nbG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="otB-ag-BR5"/>
+                            <constraint firstItem="tGl-wh-xsB" firstAttribute="top" secondItem="cZ2-Bb-nbG" secondAttribute="bottom" id="rxU-qK-Gwz"/>
+                            <constraint firstItem="JsS-hh-Pt1" firstAttribute="centerY" secondItem="cZ2-Bb-nbG" secondAttribute="centerY" id="wg4-U9-lMK"/>
+                            <constraint firstItem="cZ2-Bb-nbG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="zrA-KA-tDi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89" y="319"/>
+        </scene>
+    </scenes>
+</document>
