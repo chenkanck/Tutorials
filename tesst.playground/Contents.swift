@@ -78,6 +78,6 @@ func printTitle(input: MyClass) {
 }
 
 let a = MyClass()
-printTitle(a)
+//printTitle(a)
 a.title = "Swifter.tips"
 printTitle(a)
