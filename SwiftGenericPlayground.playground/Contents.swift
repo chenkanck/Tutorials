@@ -42,7 +42,7 @@ func findIndex<T: Equatable >(item: T, items: [T]) -> Int? {
 }
 
 protocol Container {
-    typealias ItemType
+    associatedtype ItemType
     mutating func append(item: ItemType)
     var count: Int { get }
     subscript(i: Int) -> ItemType{ get }
