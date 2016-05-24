@@ -69,6 +69,7 @@ extension MyClass {
 }
 
 //test commit in master
+//rebase 2
 func printTitle(input: MyClass) {
     if let title = input.title {
         print("Title: \(title)")
